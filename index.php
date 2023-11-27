@@ -49,7 +49,8 @@
 </nav>
 
 <div class="container mt-5">
-    <?php require_once "logique.php" ?>
+    <?php require_once "logique.php";
+    require_once "templates.php"?>
     <?= $content ?>
 
 

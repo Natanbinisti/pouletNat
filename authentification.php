@@ -14,6 +14,12 @@ if (isset($_POST ['username'])){
             }
         }
 }
+if (isset($_POST['pouletId'])){
+    $pageProduit = true;
+    $idPoulet = $_POST['pouletId'];
+
+
+}
 // logique de connection   $_POST etc etc
 
 //a la fin ,si la connection est acceptée,
